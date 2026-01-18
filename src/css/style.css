@@ -99,7 +99,7 @@ body {
   font-family: var(--bs-body-font-family);
   font-size: 18px;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1500px;
 }
 
 a:link,
@@ -314,7 +314,12 @@ a:hover {
 /* footer styles */
 
 .park-footer {
-  background-image: url("../images/topo_pattern.png");
+  background-image: url(../images/background-footer.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: var(--bs-grey-4);
   padding: 1.5rem;
 }
 
